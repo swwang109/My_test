@@ -58,30 +58,24 @@
 
 **内嵌式链接**
 
-- 外部链接：[百度](https://www.baidu.com)
+- 外部链接：[百度](https://www.baidu.com "Baidu")
 - 链接至其他文档（当前目录）：[TESTE_MD1](test_md1.md)
 - 链接至其他文档（其他目录）：[TESTE_MD1](docs/test_md2.md)
 - 连接至本文档其他部分：[基础语法](Markdown.md#有序列表)
 
 **引用式链接**
 
-- 外部链接： [ Badidu ]
-- 链接至其他文档：[ TESTE_MD1 ]
-- 连接至本文档其他部分：[基础语法]
+- 外部链接： [ Baidu ][] 
+
+- 链接至其他文档：[ TESTE_MD1 ][]
+- 连接至本文档其他部分：[基础语法][]
 
 
 
-<!--文档中用到的引用链接如下-->
 
-[Baidu]: https://www.baidu.com	"Baidu"
-[TEST_MD1]: test_md1.md
+
+
+
+[ Baidu ]: https://www.baidu.com
+[ TESTE_MD1 ]: test_md1.md
 [基础语法]: Markdown.md#有序列表
-
-
-
-
-
-
-
-
-
