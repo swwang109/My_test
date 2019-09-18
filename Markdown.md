@@ -70,12 +70,60 @@
 - 链接至其他文档：[ TESTE_MD1 ][]
 - 连接至本文档其他部分：[基础语法][]
 
+### 图片
+
+- 图片的Markdown语法
+
+  ![]( URL "Title")
+
+- 插入网络图片
+
+![](https://www.baidu.com/img/bd_logo1.png?where=super "Baidu")
+
+- 菜如仓库内图片 (绝对路径)
+
+![](E:\Programing\Git\my_test\images\markdown.png)
+
+- 菜如仓库内图片 (相对路径)
+
+![](images\markdown.png)
+
+- 图片的引用式链接
+
+![][Baidu_png]
+
+### 引用
+
+>这是一个引文， 这是一个引文 
+
+​                                                                                                                                                                 --- 出自《出处》
+
+> > > 这是多重引用
+
+### 代码块
+
+- 块式代码
+
+```bash
+# echo "Hello World";
+# ls -ltar
+```
+
+- 行内代码
+
+这个代码中用来声明的变量`var a=10`。
 
 
 
 
+
+
+
+<!--引用时链接-->
 
 
 [ Baidu ]: https://www.baidu.com
 [ TESTE_MD1 ]: test_md1.md
 [基础语法]: Markdown.md#有序列表
+[Baidu_png]:https://www.baidu.com/img/bd_logo1.png?where=super
+
