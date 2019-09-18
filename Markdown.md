@@ -86,7 +86,7 @@
 
 - 菜如仓库内图片 (相对路径)
 
-![](images\markdown.png)
+![](images/markdown.png)
 
 - 图片的引用式链接
 
