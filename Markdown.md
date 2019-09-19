@@ -58,7 +58,7 @@
 
 **内嵌式链接**
 
-- 外部链接：[百度](https://www.baidu.com "Baidu")
+- 外部链接：[百度 <img src="https://www.baidu.com/img/bd_logo1.png?where=super" height="25">](https://www.baidu.com "Baidu")
 - 链接至其他文档（当前目录）：[TESTE_MD1](test_md1.md)
 - 链接至其他文档（其他目录）：[TESTE_MD1](docs/test_md2.md)
 - 连接至本文档其他部分：[基础语法](Markdown.md#有序列表)
@@ -86,7 +86,7 @@
 
 - 菜如仓库内图片 (相对路径)
 
-![](images/markdown.png)
+![](images/markdown.png )
 
 - 图片的引用式链接
 
@@ -115,9 +115,58 @@
 
 
 
+### 水平分割线
+
+- 方法一： ---
+
+---
+
+- 方法二：***
+
+***
+
+- 方法三：___
+
+___
+
+### HTML代码
+
+Markdown格式化文档非常简单。很多人喜欢Markdown。
+
+但如果文档格式超出了Markdown的处理效果，可以计入HTML。
+
+比如：
+
+<p align='center'> 居中</p>
+### 表格
+
+|      |      |      |      |      |      |
+| ---: | ---- | ---- | ---- | ---- | ---- |
+|      |      |      |      |      |      |
+|      |      |      |      |      |      |
+|      |      |      |      |      |      |
+
+### GFM语法
+
+- [x] Task List 1
+- [ ] Task List 2
+
+### emoji 表情符号
+
+更多表情符号链接：https://www.webfx.com/tools/emoji-cheat-sheet/
+
+`:smile_cat:`表示:smile_cat:
+`:scream:`表示:scream:
+`:kissing_heart:`表示 :kissing_heart:
+`:yum:`表示 :yum:
+
+`:snake:`表示：:snake:
 
 
 
+<!--行注释-->
+
+<!---->
 
 <!--引用时链接-->
 
