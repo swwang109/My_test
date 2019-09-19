@@ -73,31 +73,33 @@
 
 - 图片的Markdown语法
 
-  ![]( URL "Title")
+  `![]( URL "Title")`
 
 - 插入网络图片
 
-![](https://www.baidu.com/img/bd_logo1.png?where=super "Baidu")
+  `![](https://www.baidu.com/img/bd_logo1.png?where=super "Baidu")`
 
 - 插入仓库内图片 (绝对路径)
 
-![](E:\Programing\Git\my_test\images\markdown.png)
+  `![](E:\Programing\Git\my_test\images\markdown.png)`
 
 - 插入仓库内图片 (相对路径)
-[](images/markdown.png )
-![](images/markdown.png)
-![](https://raw.githubusercontent.com/swwang109/My_test/master/images/markdown.png)
->>>>>>> 5214178f6b2cee2572af4a56fae4aed1475e3938
+`[](images/markdown.png )`
+`![](images/markdown.png)`
+`![](https://raw.githubusercontent.com/swwang109/My_test/master/images/markdown.png)`
+- 图片的引用式链接 
 
-- 图片的引用式链接
-
-![][Baidu_png]
+  `![][Baidu_png]`
 
 ### 引用
+
+- 单重引用：
 
 >这是一个引文， 这是一个引文 
 
 --- 出自《出处》
+
+- 多重引用：
 
 > > > 这是多重引用
 
@@ -140,11 +142,11 @@ Markdown格式化文档非常简单。很多人喜欢Markdown。
 <p align='center'> 居中</p>
 ### 表格
 
-|      |      |      |      |      |      |
-| ---: | ---- | ---- | ---- | ---- | ---- |
-|      |      |      |      |      |      |
-|      |      |      |      |      |      |
-|      |      |      |      |      |      |
+| 第一行 | 第一行 | 第一行 | 第一行 | 第一行 | 第一行 |
+| :----: | :----: | :----: | :----: | :----: | :----: |
+| 第二行 | 第二行 | 第二行 | 第二行 | 第二行 | 第二行 |
+| 第三行 | 第三行 | 第三行 | 第三行 | 第三行 | 第三行 |
+| 第四行 | 第四行 | 第四行 | 第四行 | 第四行 | 第四行 |
 
 ### GFM语法
 
@@ -181,13 +183,13 @@ Markdown格式化文档非常简单。很多人喜欢Markdown。
 
 ### 图片链接
 
-[Baidu](https://www.baidu.com)
+`[Baidu](https://www.baidu.com)`
 
-![](https://www.baidu.com/img/bd_logo1.png?where=super)
+`![](https://www.baidu.com/img/bd_logo1.png?where=super)`
 
 
 
-[![](https://www.baidu.com/img/bd_logo1.png?where=super)](https://www.baidu.com)
+`[![](https://www.baidu.com/img/bd_logo1.png?where=super)](https://www.baidu.com)`
 
 - 注意：对于图片链接，当鼠标放置于图片上方时，鼠标形状变为小手。
 
@@ -211,8 +213,6 @@ Markdown格式化文档非常简单。很多人喜欢Markdown。
 
 <!--行注释-->
 
-<!---->
-
 <!--引用时链接-->
 
 
@@ -220,7 +220,3 @@ Markdown格式化文档非常简单。很多人喜欢Markdown。
 [ TESTE_MD1 ]: test_md1.md
 [基础语法]: Markdown.md#有序列表
 [Baidu_png]:https://www.baidu.com/img/bd_logo1.png?where=super
-
-
-
-[baidu]: 
