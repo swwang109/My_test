@@ -66,7 +66,6 @@
 **引用式链接**
 
 - 外部链接： [ Baidu ][] 
-
 - 链接至其他文档：[ TESTE_MD1 ][]
 - 连接至本文档其他部分：[基础语法][]
 
@@ -80,15 +79,12 @@
 
 ![](https://www.baidu.com/img/bd_logo1.png?where=super "Baidu")
 
-- 菜如仓库内图片 (绝对路径)
+- 插入仓库内图片 (绝对路径)
 
 ![](E:\Programing\Git\my_test\images\markdown.png)
 
-- 菜如仓库内图片 (相对路径)
-
-<<<<<<< HEAD
-![](images/markdown.png )
-=======
+- 插入仓库内图片 (相对路径)
+[](images/markdown.png )
 ![](images/markdown.png)
 ![](https://raw.githubusercontent.com/swwang109/My_test/master/images/markdown.png)
 >>>>>>> 5214178f6b2cee2572af4a56fae4aed1475e3938
@@ -101,7 +97,7 @@
 
 >这是一个引文， 这是一个引文 
 
-​                                                                                                                                                                 --- 出自《出处》
+--- 出自《出处》
 
 > > > 这是多重引用
 
@@ -117,7 +113,6 @@
 - 行内代码
 
 这个代码中用来声明的变量`var a=10`。
-
 
 
 ### 水平分割线
@@ -167,6 +162,51 @@ Markdown格式化文档非常简单。很多人喜欢Markdown。
 
 `:snake:`表示：:snake:
 
+### 混合强调模式
+
+- **加粗**
+- *斜体*
+- ~~删除~~
+
+
+
+- **~~加粗删除~~**
+- ~~**删除加粗**~~
+- *~~斜体删除~~*
+- ~~*删除斜体*~~
+- ***~~加粗删除斜体~~***
+- *~~**斜体删除加粗**~~*
+
+
+
+### 图片链接
+
+[Baidu](https://www.baidu.com)
+
+![](https://www.baidu.com/img/bd_logo1.png?where=super)
+
+
+
+[![](https://www.baidu.com/img/bd_logo1.png?where=super)](https://www.baidu.com)
+
+- 注意：对于图片链接，当鼠标放置于图片上方时，鼠标形状变为小手。
+
+
+
+### 多级列表打断
+
+-  item 1
+  - item 2
+
+1. item 1
+   1. item 1
+2. item 2
+   1. item 2
+3. item 3
+4. item 4
+
+
+
 
 
 <!--行注释-->
@@ -181,3 +221,6 @@ Markdown格式化文档非常简单。很多人喜欢Markdown。
 [基础语法]: Markdown.md#有序列表
 [Baidu_png]:https://www.baidu.com/img/bd_logo1.png?where=super
 
+
+
+[baidu]: 
