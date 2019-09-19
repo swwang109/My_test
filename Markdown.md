@@ -86,7 +86,12 @@
 
 - 菜如仓库内图片 (相对路径)
 
+<<<<<<< HEAD
 ![](images/markdown.png )
+=======
+![](images/markdown.png)
+![](https://raw.githubusercontent.com/swwang109/My_test/master/images/markdown.png)
+>>>>>>> 5214178f6b2cee2572af4a56fae4aed1475e3938
 
 - 图片的引用式链接
 
