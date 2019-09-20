@@ -1,5 +1,10 @@
-# Test to ignore c.txt
+# Test to ignore files
 
 a.txt
 b.txt
 c.txt
+
+# Test to ignore directories 
+
+log/
+tmp/test2.txt
