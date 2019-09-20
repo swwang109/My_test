@@ -1,8 +1,6 @@
 # Test to ignore files
 
-a.txt
-b.txt
-c.txt
+.project
 
 # Test to ignore directories 
 
